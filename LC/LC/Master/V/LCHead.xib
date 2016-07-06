@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+<<<<<<< Updated upstream
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+=======
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+>>>>>>> Stashed changes
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LCHead">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2yd-WF-LaD">
+                    <rect key="frame" x="8" y="8" width="85" height="102"/>
+<<<<<<< Updated upstream
+                    <constraints>
+                        <constraint firstAttribute="height" constant="102" id="3Vo-1h-JLm"/>
+                        <constraint firstAttribute="width" constant="85" id="FT6-3P-q0c"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWV-ty-8Sy">
+                    <rect key="frame" x="101" y="8" width="0.0" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="wM9-E1-PUv"/>
+                    </constraints>
+=======
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWV-ty-8Sy">
+                    <rect key="frame" x="101" y="8" width="259" height="21"/>
+                    <animations/>
+>>>>>>> Stashed changes
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.74516650880000002" green="0.74516650880000002" blue="0.74516650880000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rIa-gw-4Zy">
+                    <rect key="frame" x="0.0" y="118" width="375" height="34"/>
+                    <subviews>
+<<<<<<< Updated upstream
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUb-UJ-r3d">
+                            <rect key="frame" x="8" y="2" width="82" height="30"/>
+=======
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUb-UJ-r3d">
+                            <rect key="frame" x="8" y="2" width="83" height="30"/>
+                            <animations/>
+>>>>>>> Stashed changes
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="AUg-Fl-jg9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="喜欢">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="178-rz-g5J"/>
+                            </connections>
+                        </button>
+<<<<<<< Updated upstream
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2f-FP-f0g">
+                            <rect key="frame" x="188" y="2" width="82" height="30"/>
+=======
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E2f-FP-f0g">
+                            <rect key="frame" x="190" y="2" width="83" height="30"/>
+                            <animations/>
+>>>>>>> Stashed changes
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="关注">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="fNP-39-U3D"/>
+                            </connections>
+                        </button>
+<<<<<<< Updated upstream
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uxe-So-so5">
+                            <rect key="frame" x="279" y="2" width="82" height="30"/>
+=======
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uxe-So-so5">
+                            <rect key="frame" x="282" y="2" width="83" height="30"/>
+                            <animations/>
+>>>>>>> Stashed changes
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="粉丝">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="GDo-Np-UzM"/>
+                            </connections>
+                        </button>
+<<<<<<< Updated upstream
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvS-jc-RFJ">
+                            <rect key="frame" x="98" y="2" width="82" height="30"/>
+=======
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvS-jc-RFJ">
+                            <rect key="frame" x="99" y="2" width="83" height="30"/>
+                            <animations/>
+>>>>>>> Stashed changes
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="推荐">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="3xF-8K-wZF"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="VvS-jc-RFJ" firstAttribute="width" secondItem="CUb-UJ-r3d" secondAttribute="width" id="1wg-7k-Nxq"/>
+                        <constraint firstItem="VvS-jc-RFJ" firstAttribute="height" secondItem="CUb-UJ-r3d" secondAttribute="height" id="6It-G8-HK0"/>
+                        <constraint firstItem="CUb-UJ-r3d" firstAttribute="leading" secondItem="rIa-gw-4Zy" secondAttribute="leading" constant="8" id="KKL-lN-Ql0"/>
+                        <constraint firstItem="Uxe-So-so5" firstAttribute="bottom" secondItem="CUb-UJ-r3d" secondAttribute="bottom" id="Mdb-3N-YU6"/>
+                        <constraint firstItem="VvS-jc-RFJ" firstAttribute="bottom" secondItem="CUb-UJ-r3d" secondAttribute="bottom" id="PHt-Za-P4m"/>
+                        <constraint firstItem="E2f-FP-f0g" firstAttribute="leading" secondItem="VvS-jc-RFJ" secondAttribute="trailing" constant="8" id="UgV-bq-E6o"/>
+                        <constraint firstItem="E2f-FP-f0g" firstAttribute="bottom" secondItem="CUb-UJ-r3d" secondAttribute="bottom" id="Wcw-KM-kLU"/>
+                        <constraint firstAttribute="bottom" secondItem="CUb-UJ-r3d" secondAttribute="bottom" constant="2" id="ZH0-YH-MEp"/>
+                        <constraint firstItem="E2f-FP-f0g" firstAttribute="width" secondItem="CUb-UJ-r3d" secondAttribute="width" id="ao1-EE-I7M"/>
+                        <constraint firstItem="VvS-jc-RFJ" firstAttribute="leading" secondItem="CUb-UJ-r3d" secondAttribute="trailing" constant="8" id="foa-5A-hF9"/>
+                        <constraint firstItem="Uxe-So-so5" firstAttribute="height" secondItem="CUb-UJ-r3d" secondAttribute="height" id="hEh-Qz-KLQ"/>
+                        <constraint firstItem="Uxe-So-so5" firstAttribute="width" secondItem="CUb-UJ-r3d" secondAttribute="width" id="sMg-YJ-LeJ"/>
+                        <constraint firstItem="E2f-FP-f0g" firstAttribute="height" secondItem="CUb-UJ-r3d" secondAttribute="height" id="td5-tj-e7o"/>
+                        <constraint firstItem="Uxe-So-so5" firstAttribute="leading" secondItem="E2f-FP-f0g" secondAttribute="trailing" constant="9" id="u6E-Yf-2mE"/>
+                        <constraint firstItem="CUb-UJ-r3d" firstAttribute="width" secondItem="rIa-gw-4Zy" secondAttribute="width" multiplier="145/667" id="uPO-ZD-bxo"/>
+                        <constraint firstItem="CUb-UJ-r3d" firstAttribute="top" secondItem="rIa-gw-4Zy" secondAttribute="top" constant="2" id="weh-t8-VEf"/>
+                        <constraint firstAttribute="height" constant="34" id="z3x-Mk-jTM"/>
+                    </constraints>
+                </view>
+<<<<<<< Updated upstream
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5Z-1P-jnD">
+                    <rect key="frame" x="101" y="37" width="0.0" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="88R-Zw-ZTv"/>
+                    </constraints>
+=======
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5Z-1P-jnD">
+                    <rect key="frame" x="101" y="37" width="259" height="21"/>
+                    <animations/>
+>>>>>>> Stashed changes
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.74516650880000002" green="0.74516650880000002" blue="0.74516650880000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eWV-ty-8Sy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="6En-Fu-tV0"/>
+                <constraint firstItem="rIa-gw-4Zy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8Ha-Yd-BKx"/>
+                <constraint firstItem="H5Z-1P-jnD" firstAttribute="top" secondItem="eWV-ty-8Sy" secondAttribute="bottom" constant="8" id="P4g-et-FS5"/>
+                <constraint firstItem="eWV-ty-8Sy" firstAttribute="leading" secondItem="2yd-WF-LaD" secondAttribute="trailing" constant="8" id="PSl-bc-NnM"/>
+                <constraint firstAttribute="bottom" secondItem="rIa-gw-4Zy" secondAttribute="bottom" id="VfZ-3C-2sY"/>
+                <constraint firstAttribute="trailing" secondItem="rIa-gw-4Zy" secondAttribute="trailing" id="ZhD-KR-sx7"/>
+                <constraint firstItem="2yd-WF-LaD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="j4a-hx-tBo"/>
+                <constraint firstItem="H5Z-1P-jnD" firstAttribute="leading" secondItem="2yd-WF-LaD" secondAttribute="trailing" constant="8" id="wiv-kt-zfi"/>
+                <constraint firstItem="2yd-WF-LaD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="z4K-oM-dDp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="followed_count" destination="Uxe-So-so5" id="qXh-1n-qzP"/>
+                <outlet property="following_count" destination="E2f-FP-f0g" id="t7l-sA-bYV"/>
+                <outlet property="image" destination="2yd-WF-LaD" id="htq-Do-9Fw"/>
+                <outlet property="like_count" destination="CUb-UJ-r3d" id="xmT-PQ-3O8"/>
+                <outlet property="name" destination="eWV-ty-8Sy" id="ZvM-sj-VNL"/>
+                <outlet property="recommendation_count" destination="VvS-jc-RFJ" id="JDk-D5-2Py"/>
+                <outlet property="user_desc" destination="H5Z-1P-jnD" id="7i0-Fu-7Sq"/>
+                <outletCollection property="btnS" destination="CUb-UJ-r3d" id="Kc2-0C-2Na"/>
+                <outletCollection property="btnS" destination="VvS-jc-RFJ" id="4TF-HD-vrF"/>
+                <outletCollection property="btnS" destination="E2f-FP-f0g" id="diy-Y1-tu4"/>
+                <outletCollection property="btnS" destination="Uxe-So-so5" id="tAF-Ym-SSb"/>
+            </connections>
+            <point key="canvasLocation" x="339.5" y="389"/>
+        </view>
+    </objects>
+</document>
